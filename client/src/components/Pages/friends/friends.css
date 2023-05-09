@@ -1,0 +1,86 @@
+.Friends {
+	display: flex;
+	padding: 20px;
+}
+.friendSection {
+	flex: 6;
+	display: flex;
+	justify-content: space-evenly;
+}
+.friendsBody {
+	border: solid 1px #000;
+	border-radius: 5px;
+	background-color: white;
+	height: 1120px;
+	width: 550px;
+	padding: 10px;
+}
+.friendLinks {
+	display: flex;
+	justify-content: flex-end;
+}
+.links {
+	border: 1px solid blue;
+}
+.friendsBox {
+	display: flex;
+	justify-content: center;
+}
+.connectionBox {
+	display: flex;
+	justify-content: center;
+}
+.viewFriends {
+	border: solid 1px #000;
+	border-radius: 5px;
+	background-color: white;
+	height: 490px;
+	width: 450px;
+	padding: 10px;
+}
+.friendList {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 10px;
+	background-color: transparent;
+	justify-items: center;
+}
+.friendsItem {
+	background-color: transparent;
+	margin-top: 20px;
+}
+.friendsItem p {
+	background-color: transparent;
+}
+.friendsItem img {
+	height: 71px;
+	width: 100px;
+}
+
+.viewConnections {
+	border: solid 1px #000;
+	border-radius: 5px;
+	background-color: white;
+	height: 490px;
+	width: 450px;
+	padding: 10px;
+	margin-top: 30px;
+}
+.connectionList {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 10px;
+	background-color: transparent;
+	justify-items: center;
+}
+.connectionItem {
+	background-color: transparent;
+	margin-top: 20px;
+}
+.connectionItem p {
+	background-color: transparent;
+}
+.connectionItem img {
+	height: 71px;
+	width: 100px;
+}

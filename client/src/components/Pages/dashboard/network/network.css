@@ -1,0 +1,53 @@
+.network {
+	display: flex;
+	padding: 20px;
+}
+.networkContainer {
+	flex: 6;
+}
+.networkheader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 800px;
+	height: 100px;
+	background-color: white;
+	border-radius: 10px;
+	border: 01px solid black;
+}
+
+.networkheader a{
+    color: white;
+    background-color: blue;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.networkBody {
+	display: flex;
+}
+.leftContainer {
+	padding: 10px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	width: 500px;
+	text-align: start;
+	border: 1px solid black;
+	border-radius: 10px;
+	height: 300px;
+	margin-right: 20px;
+}
+.rightContainer {
+	background-color: white;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+	
+}
+.rightContainer .link {
+	color: blue;
+}

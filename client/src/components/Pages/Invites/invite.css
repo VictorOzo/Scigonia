@@ -1,0 +1,45 @@
+.invite {
+	display: flex;
+	padding: 20px;
+}
+.inviteContainer {
+	flex: 6;
+	display: flex;
+	justify-content: space-evenly;
+}
+.invitebox {
+	border: solid 1px #000;
+	border-radius: 5px;
+	background-color: white;
+	height: 520px;
+	width: 650px;
+	padding: 10px;
+}
+.inviteinfoimg {
+	border: solid 1px #000;
+	border-radius: 5px;
+	background-color: white;
+	height: 180px;
+	width: 270px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.messageContainer {
+	border: solid 1px #000;
+	border-radius: 5px;
+	background-color: white;
+	height: 200px;
+	width: 270px;
+	padding: 10px;
+	position: relative;
+    margin-top: 20px;
+}
+.img {
+	position: absolute;
+	top: -20px;
+	left: 100px;
+}
+.infotext p {
+	margin-top: 30px;
+	font-size: 10px;
+}

@@ -1,0 +1,61 @@
+.withdraw {
+	display: flex;
+	padding: 20px;
+}
+.withdrawContainer {
+	flex: 6;
+	display: flex;
+	justify-content: space-evenly;
+}
+.withdrawBox {
+	border: solid 1px #000;
+	border-radius: 5px;
+	background-color: white;
+	height: 470px;
+	width: 650px;
+	padding: 10px;
+}
+.withdrawimg {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.withdrawimg img {
+	width: 200px;
+	height: 200px;
+}
+.form {
+	margin: auto;
+}
+.withdrawForm input {
+	border: 1px solid black;
+	width: 100%;
+	height: 40px;
+}
+.withdrawbtn {
+	width: 90%;
+	display: flex;
+	justify-content: flex-end;
+}
+.withdrawinfoimg {
+	border: solid 1px #000;
+	border-radius: 5px;
+	background-color: white;
+	height: 180px;
+	width: 270px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.withdrawMessageContainer {
+	border: solid 1px #000;
+	border-radius: 5px;
+	background-color: white;
+	height: 140px;
+	width: 270px;
+	padding: 10px;
+	position: relative;
+}
+.withdrawinfotext p {
+	margin-top: 10px;
+	font-size: 10px;
+}

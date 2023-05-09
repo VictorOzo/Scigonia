@@ -1,0 +1,28 @@
+.mint {
+	display: flex;
+	padding: 20px;
+}
+.mintSection {
+	flex: 6;
+	display: flex;
+	justify-content: space-evenly;
+}
+.mintBox{
+    border: solid 1px #000;
+	border-radius: 5px;
+	background-color: white;
+	height: 600px;
+	width: 650px;
+	padding: 10px;
+}
+.mintHeader{
+	display: flex;
+	justify-content: space-between;
+}
+.periodSection{
+    display: flex;
+    justify-content: space-between;
+}
+select{
+    border: 1px solid #000;
+}

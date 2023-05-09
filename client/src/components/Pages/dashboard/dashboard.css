@@ -1,0 +1,101 @@
+.dashboard {
+	display: flex;
+	padding: 20px;
+}
+.dashboardContainer {
+	flex: 6;
+	display: flex;
+	justify-content: space-evenly;
+}
+.messageContainer hr {
+	width: 700px;
+	margin: auto;
+}
+.makepost {
+	border: solid 1px #000;
+	border-radius: 5px;
+	background-color: white;
+	height: 520px;
+	width: 650px;
+	padding: 10px;
+}
+.makepost {
+	border: solid 1px #000;
+	border-radius: 5px;
+	background-color: white;
+	height: 440px;
+	width: 650px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.postitem {
+	border: solid 1px #000;
+	border-radius: 5px;
+	background-color: white;
+	height: 520px;
+	width: 650px;
+	padding: 10px;
+}
+.infoimg {
+	border: solid 1px #000;
+	border-radius: 5px;
+	background-color: white;
+	height: 180px;
+	width: 250px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.friendsContainer {
+	border: solid 1px #000;
+	border-radius: 5px;
+	background-color: white;
+	height: 250px;
+	width: 250px;
+	padding: 10px;
+}
+.friends {
+	display: flex;
+	align-items: center;
+}
+.friends img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+.header {
+	display: flex;
+	align-items: center;
+}
+.postImg img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.post img {
+	margin: auto;
+	height: 250px;
+}
+.postbox {
+	width: 600px;
+	height: 200px;
+	border: 1px solid #000;
+}
+.format {
+	display: flex;
+	justify-content: space-evenly;
+}
+.format a {
+	margin-right: 10px;
+}
+.postlinks {
+	display: flex;
+	justify-content: space-between;
+}
+.commentSection {
+	display: flex;
+	justify-content: center;
+}
+.comment {
+	margin-right: 50px;
+}

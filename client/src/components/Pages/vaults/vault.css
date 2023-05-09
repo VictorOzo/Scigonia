@@ -1,0 +1,52 @@
+.vault {
+	display: flex;
+	padding: 20px;
+}
+.vaultSection {
+	flex: 6;
+	display: flex;
+	justify-content: space-evenly;
+}
+.vaultBox {
+	border: solid 1px #000;
+	border-radius: 5px;
+	background-color: white;
+	height: 520px;
+	width: 650px;
+	padding: 10px;
+}
+.vaultLinks {
+	display: flex;
+	justify-content: flex-start;
+}
+.vaultimg{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.vaultimg img{
+	width: 200px;
+	height: 200px;
+}
+.aboutVault{
+	border: solid 1px #000;
+	border-radius: 5px;
+	background-color: white;
+	height: 120px;
+	width: 600px;
+	padding: 10px;
+}
+.vaultMessageContainer{
+	border: solid 1px #000;
+	border-radius: 5px;
+	background-color: white;
+	height: 130px;
+	width: 270px;
+	padding: 10px;
+	position: relative;
+    margin-top: 20px;
+}
+
+.links a:focus{
+	background-color: black;
+}

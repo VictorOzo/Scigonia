@@ -1,0 +1,129 @@
+.heroSection {
+	background-image: linear-gradient(rgba(123, 119, 163, 0.3), rgba(97, 96, 175, 0.7)), url('../../../images/scigoniaBg.jpg');
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.nav-items{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: transparent;
+}
+.hero {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.circleimg {
+	position: relative;
+}
+.circle1 {
+	position: absolute;
+	top: 30px;
+	left: -100px;
+}
+.circle2 {
+	position: absolute;
+	top: 200px;
+	left: -1px;
+	overflow: hidden;
+}
+
+.circleimg p {
+	position: absolute;
+	line-height: 70px;
+	top: 100px;
+	left: 70px;
+}
+.headertext button{
+	border: 1px solid black;
+	margin-right: 5px;
+}
+
+.heroform {
+	display: grid;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.heroform input {
+	border: solid 1px white;
+	width: 400px;
+	height: 50px;
+	border-radius: 10px;
+}
+.heroform input::placeholder {
+	color: white;
+	font-size: 20px;
+}
+.aboutScigonia {
+	width: 100%;
+	height:450px;
+	background-color: white;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.aboutScigonia p {
+	display: flex;
+	text-align: start;
+}
+.eheader {
+	display: flex;
+	justify-content: flex-end;
+}
+.experience{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	height: 550px;
+}
+.experience p {
+	display: flex;
+	justify-content: flex-start;
+}
+.eheader a {
+	border: 1px solid black;
+	color: black;
+	margin-right: 10px;
+}
+.ucbiSection {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	height: 550px;
+}
+.ucbiText{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.ucbiImage {
+	display: flex;
+	justify-content: center;
+}
+footer {
+	background-color: rgb(7, 7, 88);
+	height: 100px;
+	display: flex;
+	justify-content: center;
+}
+footer p {
+	padding-top: 10px;
+	color: white;
+}
+.footerlinks ul {
+	display: flex;
+	background-color: transparent;
+}
+.footerlinks ul li {
+	background-color: transparent;
+}
+.footerlinks ul li a {
+	color: white;
+	text-decoration: none;
+	margin-right: 20px;
+}

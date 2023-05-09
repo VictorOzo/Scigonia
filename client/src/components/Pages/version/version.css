@@ -1,0 +1,27 @@
+.version {
+	display: flex;
+	padding: 20px;
+}
+.versionSection {
+	flex: 6;
+	display: flex;
+	justify-content: space-evenly;
+}
+.versionBox{
+    border: solid 1px #000;
+	border-radius: 5px;
+	background-color: white;
+	height: 420px;
+	width: 650px;
+	padding: 10px;
+}
+.versionHeader{
+	display: flex;
+	justify-content: space-between;
+}
+.withdrawlink{
+	display: flex;
+	justify-content:flex-end;
+	align-items: center;
+	width: 96%;
+}

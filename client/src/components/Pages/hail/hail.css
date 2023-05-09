@@ -1,0 +1,42 @@
+.hail {
+	display: flex;
+	padding: 20px;
+}
+.hailContainer {
+	flex: 6;
+	display: flex;
+	justify-content: space-evenly;
+}
+.hailBox {
+	border: solid 1px #000;
+	border-radius: 5px;
+	background-color: white;
+	height: 640px;
+	width: 650px;
+	padding: 10px;
+}
+.hailimg {
+	display: flex;
+	justify-content: space-evenly;
+}
+.hailimg img {
+	width: 200px;
+	height: 200px;
+}
+.hailinput {
+	display: flex;
+	align-items: center;
+}
+.abouthail {
+	border: 1px solid #000;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.hailinput select{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+}

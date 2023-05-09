@@ -1,0 +1,7 @@
+.edit {
+	display: flex;
+	padding: 20px;
+}
+.editContainer {
+	flex: 6;
+}

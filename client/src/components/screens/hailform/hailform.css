@@ -1,0 +1,8 @@
+input,label{
+    background-color: transparent;
+}
+.hailF{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
